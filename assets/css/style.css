@@ -1,0 +1,20 @@
+/* Custom Classes */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-padding img {
+  width: 100%;
+}
+
+/* Override Bootstrap Vars */
+
+.jumbotron {
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0;
+}
